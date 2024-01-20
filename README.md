@@ -1,0 +1,14 @@
+# RLE_codec
+
+A simple codec using RLE for 24bit bmp images
+
+Compress each channel with RLE
+
+# How to use it
+
+```jsx
+#encode
+%s -e test.bmp test.rle
+#decode
+%s -d test.rle test.bmp
+```
