@@ -4,6 +4,9 @@ A simple codec using RLE for 24bit bmp images
 
 Compress each channel with RLE
 
+# What we need
+stb_image.h & stb_image_write.h
+
 # How to use it
 
 ```jsx
